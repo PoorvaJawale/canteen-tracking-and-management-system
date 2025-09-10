@@ -1,0 +1,32 @@
+.footer {
+  background: #111;
+  color: white;
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff4b2b;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+copyright {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}

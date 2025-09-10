@@ -1,0 +1,39 @@
+.order-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+.order-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.status-pending {
+  background: #ff9800; /* orange */
+}
+
+.status-preparing {
+  background: #2196f3; /* blue */
+}
+
+.status-done {
+  background: #4caf50; /* green */
+}
